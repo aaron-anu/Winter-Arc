@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Hermit';
-  src: url('Hermit-Regular.otf') format('otf');
+  src: url('/Hermit-Regular.otf') format('otf');
   font-weight: normal;
   font-style: normal;
 }
@@ -40,6 +40,8 @@ button {
 	padding: 10px;
 	border-radius: 15px;
 	width: 200px;
-	
+	background-color: #4C566A;
+	border-color: #4C566A;
+	font-size: 20px;
 
 }
