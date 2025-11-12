@@ -9,7 +9,7 @@
 p {
   font-size: 20px;
   color: #88C0D0;
-  font-family: Hurmit,serif;
+  font-family: Hermit,serif;
 }
 
 h1 {
@@ -40,5 +40,6 @@ button {
 	padding: 10px;
 	border-radius: 15px;
 	width: 200px;
+	
 
 }
