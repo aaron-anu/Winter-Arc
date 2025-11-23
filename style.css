@@ -18,11 +18,11 @@ h1 {
 }
 
 .Main {
-/* align-content: center; */
 	margin: 0 auto;
-	max-width: 600px;
 	justify-content: center;
 	align-items: center;
+	justify-items: space-around;
+	max-width: 600px;
 }
 body {
 	/* margin: 100px */
@@ -58,9 +58,9 @@ nav ul {
   justify-content: space-between;
 }
 
-nav ul li {
-  margin-right: 20px;
-}
+/* nav ul li { */
+/*   margin-right: 20px; */
+/* } */
 
 nav ul li a {
 	/* text-decoration: none; */
@@ -88,3 +88,15 @@ nav ul li a:hover {
 	width: 250px;
 	border-radius: 15px;
 }
+#grid-img {
+	width: 200px;
+	border-radius: 15px;
+}
+
+.gallery-grid {
+	display: grid;
+	justify-content: stretch;
+	align-items: center;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
