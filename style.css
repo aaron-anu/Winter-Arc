@@ -66,8 +66,8 @@ nav ul li a {
 	/* text-decoration: none; */
 	background-color: #4C566A;
 	color: #88C0D0;
-	padding: 8px 12px;
-	border-radius: 15px;
+	padding: 4px 12px;
+	border-radius: 12px;
 }
 
 nav ul li a:hover {
